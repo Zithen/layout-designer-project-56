@@ -1,0 +1,61 @@
+@font-face {
+  font-family: roboto-regular;
+  src: url(../fonts/Roboto-Regular.ttf);
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: roboto-medium;
+  src: url(../fonts/Roboto-Medium.ttf);
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: roboto-bold;
+  src: url(../fonts/Roboto-Bold.ttf);
+  font-style: normal;
+  font-weight: 700;
+}
+body {
+  color: #cacaca;
+  font-family: roboto-regular, sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+h1 {
+  font-family: roboto-bold, sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 90px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+h2 {
+  font-family: roboto-bold, sans-serif;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 57px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1240px) {
+  h1 {
+    font-family: roboto-bold, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 45px;
+    text-transform: uppercase;
+  }
+  h2 {
+    font-family: roboto-bold, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    text-transform: uppercase;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
