@@ -3,7 +3,21 @@
 
 body {
   color: $main-text-color;
-  font-family: roboto-regular;
+
+  font-family: roboto-regular, sans-serif;
+  font-size: 18px;
+
+  line-height: 1.5;
   
   margin: 0;
+}
+
+h1 {
+  font-family: roboto-bold, sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+
+  line-height: 90px;
+
+  text-transform: uppercase;
 }
