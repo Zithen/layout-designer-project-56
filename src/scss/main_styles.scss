@@ -1,5 +1,6 @@
 @import "colors.scss";
 @import "fonts.scss";
+@import "mixins.scss";
 
 body {
   color: $main-text-color;
@@ -30,6 +31,41 @@ h2 {
   line-height: 57px;
 
   text-transform: uppercase;
+}
+
+.bg-main {
+  background-image: url(../images/banner.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.center-block {
+  margin: 0 auto;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.header {
+  position: absolute;
+  top: 25px;
+}
+
+.list-reset {
+  list-style: none;
+}
+
+.margin-bottom-0 {
+  @include margin-bottom-x(0);
+}
+
+.margin-top-0 {
+  @include margin-top-x(0);
+}
+
+.width-1200 {
+  @include width-x(1200px);
 }
 
 @import "mobile_styles.scss";

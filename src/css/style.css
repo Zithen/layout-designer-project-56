@@ -40,6 +40,41 @@ h2 {
   text-transform: uppercase;
 }
 
+.bg-main {
+  background-image: url(../images/banner.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.center-block {
+  margin: 0 auto;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.header {
+  position: absolute;
+  top: 25px;
+}
+
+.list-reset {
+  list-style: none;
+}
+
+.margin-bottom-0 {
+  margin-bottom: 0;
+}
+
+.margin-top-0 {
+  margin-top: 0;
+}
+
+.width-1200 {
+  width: 1200px;
+}
+
 @media (max-width: 1240px) {
   h1 {
     font-family: roboto-bold, sans-serif;
