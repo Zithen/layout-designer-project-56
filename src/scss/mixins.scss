@@ -14,6 +14,10 @@
   margin-top: $mtx;
 }
 
+@mixin padding-left-x($plx) {
+  padding-left: $plx;
+}
+
 @mixin width-x($width) {
   width: $width;
 }
