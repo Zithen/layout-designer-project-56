@@ -50,10 +50,16 @@ h2 {
 .header {
   position: absolute;
   top: 25px;
+  right: 0;
+  left: 0;
 }
 
 .list-reset {
   list-style: none;
+}
+
+.justify-content-sb {
+  justify-content: space-between;
 }
 
 .margin-bottom-0 {
@@ -62,6 +68,10 @@ h2 {
 
 .margin-top-0 {
   @include margin-top-x(0);
+}
+
+.text-uppercase {
+  text-transform: uppercase;
 }
 
 .width-1200 {
