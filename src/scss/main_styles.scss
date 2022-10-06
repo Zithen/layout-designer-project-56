@@ -47,6 +47,10 @@ h2 {
   display: flex;
 }
 
+.font-size-11 {
+  @include font-size-x(11px);
+}
+
 .header {
   position: absolute;
   top: 25px;
