@@ -1,9 +1,17 @@
-@mixin margin-top-x($mtx) {
-  margin-top: $mtx;
-}
-
 @mixin margin-bottom-x($mbx) {
   margin-bottom: $mbx;
+}
+
+@mixin margin-left-x($mlx) {
+  margin-left: $mlx;
+}
+
+@mixin margin-right-x($mrx) {
+  margin-right: $mrx;
+}
+
+@mixin margin-top-x($mtx) {
+  margin-top: $mtx;
 }
 
 @mixin width-x($width) {
