@@ -66,6 +66,14 @@ h2 {
   @include margin-bottom-x(0);
 }
 
+.margin-left-90 {
+  @include margin-left-x(90px);
+}
+
+.margin-right-24 {
+  @include margin-right-x(24px);
+}
+
 .margin-top-0 {
   @include margin-top-x(0);
 }
