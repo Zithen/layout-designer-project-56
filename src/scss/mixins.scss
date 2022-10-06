@@ -1,3 +1,7 @@
+@mixin font-size-x($fs) {
+  font-size: $fs;
+}
+
 @mixin margin-bottom-x($mbx) {
   margin-bottom: $mbx;
 }
