@@ -64,6 +64,10 @@ h2 {
   display: flex;
 }
 
+.flex-column {
+  flex-direction: column;
+}
+
 .font-size-11 {
   font-size: 11px;
 }
@@ -91,6 +95,10 @@ h2 {
 
 .justify-content-sb {
   justify-content: space-between;
+}
+
+.margin-0 {
+  margin: 0;
 }
 
 .margin-bottom-0 {
@@ -126,7 +134,7 @@ h2 {
 }
 
 .position-absolute {
-  position: absolute;
+  position: relative;
 }
 
 .text-uppercase {
@@ -145,7 +153,6 @@ h2 {
   border: 0;
   border-radius: 50px;
   background-color: #3c3b3d;
-  color: #757575;
   padding: 5px 0 5px 10px;
   width: 180px;
 }
