@@ -44,12 +44,16 @@ h2 {
   align-items: center;
 }
 
-.bg-main {
+.bg-main::before {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
   background-image: url(../images/banner.png);
   background-position: center;
   background-size: cover;
-  width: 100vw;
-  height: 100vh;
+  content: "";
+  z-index: 10000;
 }
 
 .center-block {
