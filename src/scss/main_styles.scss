@@ -33,6 +33,10 @@ h2 {
   text-transform: uppercase;
 }
 
+.align-items-center {
+  align-items: center;
+}
+
 .bg-main {
   background-image: url(../images/banner.png);
   background-position: center;
@@ -60,6 +64,11 @@ h2 {
 
 .list-reset {
   list-style: none;
+}
+
+.logo {
+  width: 24px;
+  height: 24px;
 }
 
 .justify-content-sb {
