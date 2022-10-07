@@ -121,4 +121,8 @@ h2 {
   @include width-x(1200px);
 }
 
+.z-index-10100 {
+  z-index: 10100;
+}
+
 @import "mobile_styles.scss";

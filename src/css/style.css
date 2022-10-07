@@ -125,6 +125,10 @@ h2 {
   width: 1200px;
 }
 
+.z-index-10100 {
+  z-index: 10100;
+}
+
 @media (max-width: 1240px) {
   h1 {
     font-family: roboto-bold, sans-serif;
