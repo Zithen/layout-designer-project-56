@@ -63,6 +63,7 @@ h2 {
   top: 25px;
   right: 0;
   left: 0;
+  z-index: 10100;
 }
 
 .list-reset {
@@ -100,6 +101,10 @@ h2 {
 
 .padding-left-0 {
   @include padding-left-x(0);
+}
+
+.position-absolute {
+  position: absolute;
 }
 
 .text-uppercase {
