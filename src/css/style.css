@@ -77,7 +77,12 @@ h2 {
   top: 25px;
   right: 0;
   left: 0;
-  z-index: 10100;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  text-transform: uppercase;
+  width: 1200px;
 }
 
 .list-reset {

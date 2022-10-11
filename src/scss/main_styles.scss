@@ -68,13 +68,7 @@ h2 {
   @include font-size-x(11px);
 }
 
-.header {
-  position: absolute;
-  top: 25px;
-  right: 0;
-  left: 0;
-  z-index: 10100;
-}
+@import "header.scss";
 
 .list-reset {
   list-style: none;
