@@ -79,14 +79,6 @@ h2 {
   height: 24px;
 }
 
-.justify-content-center {
-  justify-content: center;
-}
-
-.justify-content-sb {
-  justify-content: space-between;
-}
-
 .margin-0 {
   margin: 0;
 }
@@ -119,20 +111,18 @@ h2 {
   @include margin-top-x(200px);
 }
 
+@import "nav.scss";
+
 .padding-left-0 {
   @include padding-left-x(0);
 }
 
-.position-absolute {
+.position-relative {
   position: relative;
 }
 
 .text-uppercase {
   text-transform: uppercase;
-}
-
-.width-1200 {
-  @include width-x(1200px);
 }
 
 .z-index-10100 {
