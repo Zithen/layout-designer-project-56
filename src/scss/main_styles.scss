@@ -112,6 +112,7 @@ h2 {
 }
 
 @import "nav.scss";
+@import "nav_list.scss";
 
 .padding-left-0 {
   @include padding-left-x(0);

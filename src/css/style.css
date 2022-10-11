@@ -131,6 +131,12 @@ h2 {
   align-items: center;
 }
 
+.nav-list {
+  display: flex;
+  margin: 0 0 0 90px;
+  padding: 0;
+}
+
 .padding-left-0 {
   padding-left: 0;
 }
@@ -141,10 +147,6 @@ h2 {
 
 .text-uppercase {
   text-transform: uppercase;
-}
-
-.width-1200 {
-  width: 1200px;
 }
 
 .z-index-10100 {
