@@ -18,8 +18,19 @@
   
     text-transform: uppercase;
   }
-}
 
-.nav {
+  .header {
+    flex-direction: column;
+    width: 100%;
+    
+  }
+
+  .nav {
+    flex-direction: column;
+  }
   
+  .nav-list {
+    flex-direction: column;
+    margin-left: 20px;
+  }
 }

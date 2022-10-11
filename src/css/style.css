@@ -73,10 +73,8 @@ h2 {
 }
 
 .header {
-  position: absolute;
+  position: relative;
   top: 25px;
-  right: 0;
-  left: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -175,6 +173,17 @@ h2 {
     font-weight: 700;
     line-height: 27px;
     text-transform: uppercase;
+  }
+  .nav {
+    flex-direction: column;
+  }
+  .header {
+    flex-direction: column;
+    width: 100%;
+  }
+  .nav-list {
+    flex-direction: column;
+    margin-left: 20px;
   }
 }
 
