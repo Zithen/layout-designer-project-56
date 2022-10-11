@@ -9,29 +9,31 @@
   <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+  <div class="bg-main">
     <header class="header font-size-11 z-index-10100">
       <div class="nav">
-        <img class="logo" src="./images/logo.svg" alt="Logo">
-        <p class="margin-bottom-0 margin-top-0 margin-left-16">Music box</p>
+        <div class="display-flex align-items-center margin-left-20">
+          <img class="logo" src="./images/logo.svg" alt="Logo">
+          <p class="margin-0">Music box</p>
+        </div>
 
         <ul class="nav-list list-reset padding-left-0">
-          <li class="margin-right-24">Главная</li>
-          <li class="margin-right-24">Каталог</li>
-          <li class="margin-right-24">Исполнители</li>
+          <li>Главная</li>
+          <li>Каталог</li>
+          <li>Исполнители</li>
           <li>Контакты</li>
         </ul>
       </div>
 
-      <form action="">
+      <form action="" class="width-100-proc">
         <input class="text-uppercase font-size-11 search-form-styles" type="text" placeholder="Поиск...">
       </form>
     </header>
 
-    <main>
-      <section class="align-items-center bg-main display-flex flex-column margin-bottom-200 margin-top-200" id="page-description">
+    <section class="align-items-center bg-main display-flex flex-column margin-bottom-200 margin-top-200" id="page-description">
         <h1 class="margin-0 position-relative z-index-10100">Онлайн музыка где угодно</h1>
         <h2 class="margin-0 position-relative z-index-10100">Без ограничений</h2>
-      </section>
-    </main>
+    </section>
+    </div>
 </body>
 </html>
