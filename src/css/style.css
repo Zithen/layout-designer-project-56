@@ -1,0 +1,27 @@
+@font-face {
+  font-family: roboto-regular;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: roboto-medium;
+  font-style: normal;
+  font-weight: 500;
+  src: url(../fonts/Roboto-Medium.ttf);
+}
+@font-face {
+  font-family: roboto-bold;
+  font-style: normal;
+  font-weight: 700;
+  src: url(../fonts/Roboto-Bold.ttf);
+}
+body {
+  color: #cacaca;
+  font-family: roboto-regular, sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  background-color: #08020d;
+}
+
+/*# sourceMappingURL=style.css.map */
