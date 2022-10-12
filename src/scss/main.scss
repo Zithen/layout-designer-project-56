@@ -12,14 +12,18 @@ body {
 
 h1 {
   font-size: 60px;
-  font-family: roboto-bold, sans-serif;
+  font-family: roboto-bold;
   line-height: 90px;
   text-transform: uppercase;
 }
 
 h2 {
   font-size: 38px;
-  font-family: roboto-bold, sans-serif;
+  font-family: roboto-bold;
   line-height: 57px;
   text-transform: uppercase;
+}
+
+@media (max-width: 1240px) {
+  @import "low_resolution.scss";
 }
