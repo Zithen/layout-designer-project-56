@@ -52,6 +52,20 @@ h2 {
   align-items: center;
 }
 
+.nav {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+}
+
+.nav > a {
+  text-decoration: none;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
 @media (max-width: 1240px) {
   h1 {
     font-size: 30px;

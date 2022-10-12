@@ -29,6 +29,11 @@ h2 {
 }
 
 @import "header.scss";
+@import "nav.scss";
+
+.uppercase {
+  text-transform: uppercase;
+}
 
 @media (max-width: 1240px) {
   @import "low_resolution.scss";
