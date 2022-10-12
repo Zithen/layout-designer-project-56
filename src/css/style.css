@@ -38,6 +38,16 @@ h2 {
   text-transform: uppercase;
 }
 
+.header {
+  position: absolute;
+  top: 25px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 @media (max-width: 1240px) {
   h1 {
     font-size: 30px;
