@@ -24,6 +24,10 @@ body {
   background-color: #08020d;
 }
 
+.display-flex {
+  display: flex;
+}
+
 h1 {
   font-size: 60px;
   font-family: roboto-bold;
