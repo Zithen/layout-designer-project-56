@@ -24,4 +24,18 @@ body {
   background-color: #08020d;
 }
 
+h1 {
+  font-size: 60px;
+  font-family: roboto-bold, sans-serif;
+  line-height: 90px;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 38px;
+  font-family: roboto-bold, sans-serif;
+  line-height: 57px;
+  text-transform: uppercase;
+}
+
 /*# sourceMappingURL=style.css.map */
