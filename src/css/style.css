@@ -51,16 +51,31 @@ h2 {
   width: 1200px;
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.logo > p {
+  margin: 0;
+}
+
 .nav {
   display: flex;
   gap: 24px;
   list-style: none;
-  margin: 0;
+  margin: 0 0 0 90px;
   padding: 0;
 }
 
 .nav > a {
+  color: #cacaca;
   text-decoration: none;
+}
+
+.nav > a:hover {
+  color: #fff;
 }
 
 .align-items-center {
@@ -71,8 +86,16 @@ h2 {
   display: flex;
 }
 
+.gap-16 {
+  gap: 16px;
+}
+
 .height-24 {
   height: 24px;
+}
+
+.text-white {
+  color: #fff;
 }
 
 .uppercase {

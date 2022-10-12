@@ -27,6 +27,7 @@ h2 {
 }
 
 @import "header.scss";
+@import "logo.scss";
 @import "nav.scss";
 
 .align-items-center {
@@ -37,8 +38,16 @@ h2 {
   display: flex;
 }
 
+.gap-16 {
+  gap: 16px;
+}
+
 .height-24 {
   height: 24px;
+}
+
+.text-white {
+  color: $white-color;
 }
 
 .uppercase {
