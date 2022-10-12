@@ -12,10 +12,6 @@ body {
   margin: 0;
 }
 
-.display-flex {
-  display: flex;
-}
-
 h1 {
   font-size: 60px;
   font-family: roboto-bold;
@@ -32,6 +28,14 @@ h2 {
 
 @import "header.scss";
 @import "nav.scss";
+
+.align-items-center {
+  align-items: center;
+}
+
+.display-flex {
+  display: flex;
+}
 
 .height-24 {
   height: 24px;

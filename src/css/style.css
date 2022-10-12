@@ -25,10 +25,6 @@ body {
   margin: 0;
 }
 
-.display-flex {
-  display: flex;
-}
-
 h1 {
   font-size: 60px;
   font-family: roboto-bold;
@@ -52,6 +48,7 @@ h2 {
   justify-content: space-between;
   align-items: center;
   font-size: 11px;
+  width: 1200px;
 }
 
 .nav {
@@ -64,6 +61,14 @@ h2 {
 
 .nav > a {
   text-decoration: none;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.display-flex {
+  display: flex;
 }
 
 .height-24 {
