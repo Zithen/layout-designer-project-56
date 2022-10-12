@@ -16,7 +16,12 @@
   font-weight: 700;
   src: url(../fonts/Roboto-Bold.ttf);
 }
+* {
+  box-sizing: border-box;
+}
+
 body {
+  box-sizing: border-box;
   color: #cacaca;
   font-family: roboto-regular, sans-serif;
   font-size: 18px;
@@ -79,7 +84,6 @@ h2 {
 }
 
 .search-form {
-  box-sizing: border-box;
   width: 248px;
   height: 25px;
 }
@@ -145,6 +149,27 @@ h2 {
   h2 {
     font-size: 18px;
     line-height: 27px;
+  }
+  .header {
+    left: 0;
+    transform: none;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    padding: 0 20px;
+  }
+  .mobile-styles {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .nav {
+    flex-direction: column;
+    gap: 3px;
+    margin: 17px 0 18px 0;
+    font-family: roboto-bold;
+  }
+  .search-form {
+    width: 100%;
   }
 }
 
