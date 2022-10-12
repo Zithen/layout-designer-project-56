@@ -78,6 +78,27 @@ h2 {
   color: #fff;
 }
 
+.search-form {
+  box-sizing: border-box;
+  width: 248px;
+  height: 25px;
+}
+
+.form-input * {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.text-box {
+  box-sizing: border-box;
+  background: #3c3b3d;
+  border: 0;
+  border-radius: 50px;
+  padding: 5px 0 5px 10px;
+  text-transform: uppercase;
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
