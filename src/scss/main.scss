@@ -31,8 +31,16 @@ h2 {
 @import "header.scss";
 @import "nav.scss";
 
+.height-24 {
+  height: 24px;
+}
+
 .uppercase {
   text-transform: uppercase;
+}
+
+.width-24 {
+  width: 24px;
 }
 
 @media (max-width: 1240px) {
