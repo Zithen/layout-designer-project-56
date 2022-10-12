@@ -58,6 +58,8 @@ h2 {
   display: flex;
   gap: 24px;
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .nav > a {
