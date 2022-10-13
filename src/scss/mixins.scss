@@ -1,4 +1,4 @@
-@mixin padding-x-y($p-t, $p-b) {
+@mixin padding-top-bottom($p-t, $p-b) {
   padding-top: $p-t;
   padding-bottom: $p-b;
 }
