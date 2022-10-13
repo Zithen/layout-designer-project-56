@@ -95,6 +95,21 @@ h2 {
   text-decoration: none;
 }
 
+.login-form {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.login-form > section > * {
+  min-width: 270px;
+  min-height: 50px;
+  padding-left: 20px;
+  border: 2px solid #cacaca;
+  border-radius: 3px;
+  background: transparent;
+}
+
 .reg-form {
   max-width: 570px;
 }
@@ -104,13 +119,13 @@ h2 {
   height: 25px;
 }
 
-.form-input * {
+.search-form-input * {
   display: block;
   width: 100%;
   height: 100%;
 }
 
-.text-box {
+.search-text-box {
   background: #3c3b3d;
   border: 0;
   border-radius: 50px;
@@ -144,6 +159,10 @@ h2 {
 
 .gap-16 {
   gap: 16px;
+}
+
+.gap-24 {
+  gap: 24px;
 }
 
 .height-24 {
