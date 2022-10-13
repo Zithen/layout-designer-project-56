@@ -43,19 +43,10 @@ h2 {
   align-items: center;
 }
 
-.bg-img::before {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+.bg-img {
   background-image: url('../images/banner.png');
   background-position: center;
   background-size: cover;
-
-  content: "";
-
-  z-index: -10000;
 }
 
 .display-flex {
@@ -74,12 +65,12 @@ h2 {
   margin: 0;
 }
 
-.margin-bottom-200 {
-  margin-bottom: 200px;
+.padding-bottom-200 {
+  padding-bottom: 200px;
 }
 
-.margin-top-200 {
-  margin-top: 200px;
+.padding-top-200 {
+  padding-top: 200px;
 }
 
 .text-center {
