@@ -12,3 +12,7 @@
   color: $main-text-color;
   text-decoration: none;
 }
+
+.nav > a:hover {
+  color: $white-color;
+}

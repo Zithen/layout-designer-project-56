@@ -4,6 +4,10 @@
   gap: 24px;
 }
 
+.login-form > section {
+  width: 100%;
+}
+
 .login-form > section > input {
   min-width: 270px;
   min-height: 50px;
@@ -20,6 +24,9 @@
 }
 
 .reg-form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
   max-width: 570px;
 }
 
