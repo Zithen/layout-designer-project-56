@@ -8,6 +8,14 @@ h2 {
   line-height: 27px;
 }
 
+.first-section {
+  padding: 250px 20px 200px;
+}
+
+.first-section > * {
+  width: 100%;
+}
+
 .header {
   left: 0;
   transform: none;

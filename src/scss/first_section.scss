@@ -1,7 +1,12 @@
 .first-section {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
   @include padding-top-bottom(200px, 200px);
+  width: 100%;
+}
+
+.first-section > * {
+  text-align: center;
   width: 1200px;
 }
