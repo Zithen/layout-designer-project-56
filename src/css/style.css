@@ -53,6 +53,7 @@ h2 {
   border-radius: 5px;
   padding: 20px 30px;
   cursor: pointer;
+  background: transparent;
 }
 
 .btn-green {
@@ -124,6 +125,7 @@ h2 {
 
 .login-form > section > input {
   min-width: 270px;
+  width: 100%;
   min-height: 50px;
   padding-left: 20px;
   border: 2px solid #cacaca;
@@ -185,6 +187,10 @@ h2 {
 
 .display-flex {
   display: flex;
+}
+
+.font-size-16 {
+  font-size: 16px;
 }
 
 .gap-16 {
