@@ -101,13 +101,19 @@ h2 {
   gap: 24px;
 }
 
-.login-form > section > * {
+.login-form > section > input {
   min-width: 270px;
   min-height: 50px;
   padding-left: 20px;
   border: 2px solid #cacaca;
   border-radius: 3px;
   background: transparent;
+}
+
+.login-form > section > input::placeholder {
+  color: #fff;
+  font-family: roboto-bold;
+  font-size: 14px;
 }
 
 .reg-form {
