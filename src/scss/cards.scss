@@ -1,12 +1,12 @@
 .cards {
   display: flex;
   justify-content: space-between;
+  gap: 24px;
   margin: 0 auto;
 }
 
 .pricing-item {
   height: 615px;
-  flex-grow: 0.3;
   border-radius: 1rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -15,10 +15,6 @@
 .pricing-item > h3 {
   margin-top: 24px;
   margin-bottom: 200px;
-}
-
-.subs-border {
-  border: 1px solid $white-color;
 }
 
 .bg-subs-1 {
