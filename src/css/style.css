@@ -69,6 +69,15 @@ h3 {
   background-color: #34c176;
 }
 
+.btn-subs {
+  border: 1px solid #fff;
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 40px;
+  margin-bottom: 64px;
+}
+
 .cards {
   display: flex;
   justify-content: space-between;
@@ -228,6 +237,18 @@ h3 {
 .subscr-section > * {
   text-align: center;
   width: 1200px;
+}
+
+.subs-footer {
+  font-size: 13px;
+  line-height: 1.5;
+  color: #fff;
+}
+
+.subs-price {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
 }
 
 .sr-only {
