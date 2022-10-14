@@ -60,6 +60,35 @@ h2 {
   background-color: #34c176;
 }
 
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.pricing-item {
+  height: 615px;
+  flex-grow: 0.3;
+}
+
+.bg-subs-1 {
+  background: url(../images/subscribe_1.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-subs-2 {
+  background: url(../images/subscribe_2.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-subs-3 {
+  background: url(../images/subscribe_3.png);
+  background-position: center;
+  background-size: cover;
+}
+
 .first-section {
   display: flex;
   flex-direction: column;
@@ -166,6 +195,20 @@ h2 {
   text-transform: uppercase;
 }
 
+.subscr-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: 100%;
+}
+
+.subscr-section > * {
+  text-align: center;
+  width: 1200px;
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
@@ -190,12 +233,20 @@ h2 {
   display: flex;
 }
 
+.flex-center {
+  justify-content: center;
+}
+
 .font-size-16 {
   font-size: 16px;
 }
 
 .height-24 {
   height: 24px;
+}
+
+.padding-bottom-50 {
+  padding-bottom: 50px;
 }
 
 .padding-top-bottom-100-50 {
@@ -217,6 +268,10 @@ h2 {
 
 .width-24 {
   width: 24px;
+}
+
+.width-1200 {
+  width: 1200px;
 }
 
 @media (max-width: 1240px) {

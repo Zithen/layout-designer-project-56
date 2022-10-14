@@ -1,0 +1,12 @@
+.subscr-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @include padding-top-bottom(100px, 100px);
+  width: 100%;
+}
+
+.subscr-section > * {
+  text-align: center;
+  width: 1200px;
+}

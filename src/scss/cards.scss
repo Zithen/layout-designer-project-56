@@ -1,0 +1,28 @@
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.pricing-item {
+  height: 615px;
+  flex-grow: 0.3;
+}
+
+.bg-subs-1 {
+  background: url(../images/subscribe_1.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-subs-2 {
+  background: url(../images/subscribe_2.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-subs-3 {
+  background: url(../images/subscribe_3.png);
+  background-position: center;
+  background-size: cover;
+}

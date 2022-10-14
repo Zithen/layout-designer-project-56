@@ -35,11 +35,13 @@ h2 {
 }
 
 @import "buttons.scss";
+@import "cards.scss";
 @import "first_section.scss";
 @import "header.scss";
 @import "logo.scss";
 @import "nav.scss";
 @import "forms.scss";
+@import "subscr_section.scss";
 @import "sr_only.scss";
 
 .align-items-center {
@@ -56,12 +58,20 @@ h2 {
   display: flex;
 }
 
+.flex-center {
+  justify-content: center;
+}
+
 .font-size-16 {
   font-size: 16px;
 }
 
 .height-24 {
   height: 24px;
+}
+
+.padding-bottom-50 {
+  padding-bottom: 50px;
 }
 
 .padding-top-bottom-100-50 {
@@ -82,6 +92,10 @@ h2 {
 
 .width-24 {
   width: 24px;
+}
+
+.width-1200 {
+  width: 1200px;
 }
 
 @media (max-width: 1240px) {
