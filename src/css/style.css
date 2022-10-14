@@ -46,6 +46,15 @@ h2 {
   margin: 0;
 }
 
+h3 {
+  font-size: 24px;
+  font-family: roboto-bold;
+  line-height: 36px;
+  text-transform: uppercase;
+  margin: 0;
+  color: #fff;
+}
+
 .btn {
   width: 100%;
   min-height: 50px;
@@ -69,6 +78,18 @@ h2 {
 .pricing-item {
   height: 615px;
   flex-grow: 0.3;
+  border-radius: 1rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.pricing-item > h3 {
+  margin-top: 24px;
+  margin-bottom: 200px;
+}
+
+.subs-border {
+  border: 1px solid #fff;
 }
 
 .bg-subs-1 {
@@ -241,8 +262,26 @@ h2 {
   font-size: 16px;
 }
 
+.font-size-32 {
+  font-size: 32px;
+  line-height: 1.5;
+}
+
+.font-size-64 {
+  font-size: 64px;
+  line-height: 1;
+}
+
+.gap-16 {
+  gap: 16px;
+}
+
 .height-24 {
   height: 24px;
+}
+
+.margin-0 {
+  margin: 0;
 }
 
 .padding-bottom-50 {
