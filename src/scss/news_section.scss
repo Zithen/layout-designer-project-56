@@ -1,3 +1,13 @@
+.news-all {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+
+.news-item > img {
+  width: 100%;
+}
+
 .news-author {
   display: flex;
   align-items: center;
@@ -27,7 +37,6 @@
 
 .news-section {
   display: flex;
-  gap: 64px;
   flex-direction: column;
   align-items: center;
   padding-top: 100px;
