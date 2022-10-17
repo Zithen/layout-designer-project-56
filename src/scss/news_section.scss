@@ -1,3 +1,30 @@
+.news-author {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 24px;
+  margin-bottom: 48px;
+}
+
+.news-author > img {
+  width: 19px;
+  height: 19px;
+}
+
+.news-author > * {
+  margin: 0;
+  font-size: 12px;
+}
+
+.news-logo {
+  text-transform: uppercase;
+  color: $news-logo;
+}
+
+.news-body > p {
+  font-size: 16px;
+}
+
 .news-section {
   display: flex;
   flex-direction: column;
@@ -12,6 +39,7 @@
   font-size: 30px;
   line-height: 1.5;
   text-transform: capitalize;
+  margin-bottom: 30px;
 }
 
 .news-item {

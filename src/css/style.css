@@ -89,7 +89,6 @@ h3 {
   font-size: 12px;
   text-transform: uppercase;
   padding: 16px 30px;
-  text-decoration: none;
 }
 
 .cards {
@@ -183,6 +182,33 @@ h3 {
   color: #fff;
 }
 
+.news-author {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 24px;
+  margin-bottom: 48px;
+}
+
+.news-author > img {
+  width: 19px;
+  height: 19px;
+}
+
+.news-author > * {
+  margin: 0;
+  font-size: 12px;
+}
+
+.news-logo {
+  text-transform: uppercase;
+  color: #f89202;
+}
+
+.news-body > p {
+  font-size: 16px;
+}
+
 .news-section {
   display: flex;
   flex-direction: column;
@@ -197,6 +223,7 @@ h3 {
   font-size: 30px;
   line-height: 1.5;
   text-transform: capitalize;
+  margin-bottom: 30px;
 }
 
 .news-item {
