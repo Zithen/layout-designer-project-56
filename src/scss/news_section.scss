@@ -1,0 +1,22 @@
+.news-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: 100%;
+}
+
+.news-body > h3 {
+  font-family: roboto-regular;
+  font-size: 30px;
+  line-height: 1.5;
+  text-transform: capitalize;
+}
+
+.news-item {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  width: 1200px;
+}

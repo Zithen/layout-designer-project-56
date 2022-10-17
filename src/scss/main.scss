@@ -6,6 +6,11 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+  color: $main-text-color;
+}
+
 body {
   box-sizing: border-box;
   color: $main-text-color;

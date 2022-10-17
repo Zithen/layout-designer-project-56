@@ -20,6 +20,11 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+  color: #cacaca;
+}
+
 body {
   box-sizing: border-box;
   color: #cacaca;
@@ -76,6 +81,15 @@ h3 {
   text-transform: uppercase;
   margin-top: 40px;
   margin-bottom: 64px;
+}
+
+.btn-news {
+  width: 135px;
+  border: 1px solid #fff;
+  font-size: 12px;
+  text-transform: uppercase;
+  padding: 16px 30px;
+  text-decoration: none;
 }
 
 .cards {
@@ -169,6 +183,29 @@ h3 {
   color: #fff;
 }
 
+.news-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: 100%;
+}
+
+.news-body > h3 {
+  font-family: roboto-regular;
+  font-size: 30px;
+  line-height: 1.5;
+  text-transform: capitalize;
+}
+
+.news-item {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  width: 1200px;
+}
+
 .login-form {
   display: flex;
   justify-content: center;
@@ -226,7 +263,6 @@ h3 {
   flex-direction: column;
   align-items: center;
   padding-top: 100px;
-  padding-bottom: 100px;
   width: 100%;
 }
 
