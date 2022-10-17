@@ -211,6 +211,7 @@ h3 {
 
 .news-section {
   display: flex;
+  gap: 64px;
   flex-direction: column;
   align-items: center;
   padding-top: 100px;
