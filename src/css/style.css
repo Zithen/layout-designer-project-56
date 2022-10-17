@@ -222,7 +222,6 @@ h3 {
 .news-body > h3 {
   font-family: roboto-regular;
   font-size: 30px;
-  line-height: 1.5;
   text-transform: capitalize;
   margin-bottom: 30px;
 }
@@ -431,6 +430,17 @@ h3 {
     gap: 3px;
     margin: 17px 0 18px 0;
     font-family: roboto-bold;
+  }
+  .news-section {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .news-body > h3 {
+    font-size: 16px;
+  }
+  .news-item {
+    width: 100%;
+    flex-direction: column;
   }
   .search-form {
     width: 100%;
